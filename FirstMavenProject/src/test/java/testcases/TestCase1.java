@@ -8,8 +8,10 @@ public class TestCase1 {
 
 	@Test
 	public void ts01() {
+		//comment
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://naukri.com");
 		driver.quit();
+		//comment
 	}
 }
