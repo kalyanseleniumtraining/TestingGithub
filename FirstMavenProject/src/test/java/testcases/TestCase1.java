@@ -10,5 +10,6 @@ public class TestCase1 {
 	public void ts01() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://naukri.com");
+		driver.quit();
 	}
 }
